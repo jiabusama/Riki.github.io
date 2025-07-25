@@ -37,25 +37,11 @@
       color: #0366d6;
       text-decoration: none;
     }
-    li {
-      cursor: pointer;
-    }
-    #iframe-container {
-      display: none;
-      width: 100%;
-      height: 700px;
-      margin-top: 20px;
-    }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
   </style>
-
-  <!-- Ptengine Tag -->
-  <script src="https://js.ptengine.jp/115b80lz.js"></script>
-  <!-- End Ptengine Tag -->
+<!-- Ptengine Tag -->
+<script src="https://js.ptengine.jp/115b80lz.js"></script>
+<!-- End Ptengine Tag -->
+            
 </head>
 <body>
 
@@ -75,14 +61,9 @@
 
   <h2>📂 AI小助手</h2>
   <ul>
-    <li id="open-chatbot">中日互译小助手（点击加载）</li>
+    <li><a href="https://ptminder.ptengine.com/chat/nG1dgtmHcaSWKknk">中日互译小助手</a></li>
     <li><a href="https://github.com/你的用户名/项目名">CSE总结小助手</a></li>
   </ul>
-
-  <!-- iframe 容器 -->
-  <div id="iframe-container">
-    <iframe id="chatbot-iframe" src="" allow="microphone"></iframe>
-  </div>
 
   <h2>📬 联系我</h2>
   <p>你可以通过 <a href="mailto:your@email.com">邮箱</a> 联系我。</p>
@@ -91,14 +72,6 @@
 <footer>
   &copy; 2025 by riki. Hosted on GitHub Pages.
 </footer>
-
-<script>
-  document.getElementById("open-chatbot").addEventListener("click", function () {
-    const iframe = document.getElementById("chatbot-iframe");
-    iframe.src = "AI/transfer.html"; 
-    document.getElementById("iframe-container").style.display = "block";
-  });
-</script>
 
 </body>
 </html>
